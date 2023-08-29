@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    font-size: 3rem;
+    color: purple;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 990;
+    text-decoration: none;
+    padding-top: 2%;
+}
+.home:hover{
+    color: blueviolet;
+
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+
+}
+.search{
+    height: 40px;
+    width: 90%;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid rgb(101, 13, 119);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: rgb(112, 4, 126);
+    color: white;
+    font-weight: 600;
+}
+.main{
+    background: url(./bg11.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    position: relative;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(112, 4, 126);
+    
+
+}
+.btn1{
+    height: 45px;
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: rgb(112, 4, 126);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(112, 4, 126);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(162, 127, 197);
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: rgb(162, 127, 197);
+}
+.new{
+    background-color: rgb(246, 237, 248);
+}
+.product{
+    background-color: rgb(246, 237, 248);
+}
+.card:hover{
+    -webkit-box-shadow: 20px 35px 24px -6px rgb(36, 29, 36);
+    -moz-box-shadow: 20px 35px 24px -6px rgb(56, 39, 56);
+    box-shadow: 20px 35px 24px -6px rgb(63, 41, 63);
+    transition: 3s;
+    transform: rotateY(180deg);
+}
+.about{
+    background-color: rgb(246, 237, 248);
+
+    /* background: url(./page3.jpg) no-repeat; */
+}
+.about h1{
+    font-family: 'Cinzel', serif;
+}
+.move:hover{
+    -webkit-box-shadow: 20px 35px 24px -6px rgb(36, 29, 36);
+    -moz-box-shadow: 20px 35px 24px -6px rgb(56, 39, 56);
+    box-shadow: 20px 35px 24px -6px rgb(63, 41, 63);
+    transition: 0.5s;
+}
+
+
+/* third page start  */
+#team-page {
+    margin: 0px 0;
+    padding: 0px;
+    background: rgb(233, 231, 231);
+    border-radius: 10px;
+    /* background-image: url(./Backgrounds/desk.jpg); */
+}
+
+.text-part {
+    padding-left: 8%;
+    border: none solid red 10px;
+
+}
+
+.text-part p {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.text-part h1 {
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.team-container {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.member-card {
+    width: 250px;
+    height: 380px;
+    perspective: 1000px;
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: 5s;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.front {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 20px;
+    color: rgb(161, 59, 59);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.front h2 {
+    font-weight: 500;
+    text-shadow: 5px 5px 5px rgb(156, 24, 112);
+}
+
+.front p {
+    color: rgb(200, 194, 194);
+    text-shadow: 5px 5px 5px black;
+}
+
+.front button {
+    padding: 0px 0px;
+    width: 130px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    offset-position: 10px;
+    background: transparent;
+    border: 1px solid rgb(250, 242, 246);
+    color: rgb(177, 162, 166);
+    border-radius: 50px;
+    font-weight: 300;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgb(24, 23, 23);
+}
+.front button:hover {
+    background-color:  rgb(162, 127, 197);
+    transition: 0.5s;
+}
+.back {
+    background: rgb(245, 188, 226);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px black;
+}
+
+.back img {
+    width: 65%;
+    border-radius: 35%;
+}
+
+.back h1 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.back h1 span {
+    font-weight: 400;
+}
+
+.back p {
+    font-size: 13px;
+}
+
+.back p span {
+    color: rgb(114, 0, 0);
+}
+
+.back .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.back .links a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(235, 170, 218);
+    border-radius: 50%;
+    box-shadow: 0 8px 10px rgba(121, 0, 173, 0.596);
+
+}
+
+.back .links a img {
+    width: 60%;
+}
+
+.member-card:hover .inner {
+    transform: rotateY(190deg);
+}
+
+#team1 .front {
+    background: url(https://b.zmtcdn.com/data/pictures/chains/0/19279320/289c17a20cd179b03cd9d62507b237ec.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#team2 .front {
+    background: url(https://b.zmtcdn.com/data/dish_photos/7c5/058b662015162f782eb57fa82f5bc7c5.jpg?output-format=webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#team3 .front {
+    /* background: url(https://b.zmtcdn.com/data/pictures/chains/2/97362/25b6bf1df97b7960f1260fc6a55e89a6.jpg); */
+    background: url(https://lh3.googleusercontent.com/p/AF1QipMUxP_1xqJNO-hv6D2pY2FnCRk2X1Rcu2ufHruH=s680-w680-h510);
+    background-position: center;
+    background-size: cover;
+}
+
+#team4 .front {
+    background: url(https://b.zmtcdn.com/data/pictures/chains/2/97362/3f64bf16eb666417f7d73d93e9ff7b07.jpg);
+    background-position: center;
+    background-size: cover;
+}
